@@ -51,6 +51,6 @@ class String
 			end
 			ones << (index % 10).to_s
 		end
-		[tens, ones].join("\n")
+		return [tens, ones].join("\n")
 	end
 end
